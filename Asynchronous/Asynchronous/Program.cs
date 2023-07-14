@@ -28,7 +28,9 @@ namespace Asynchronous
             ApplyJam(toast);
             Console.WriteLine("toast is ready");
 
-            Juice juice 
+            Juice oj = PourOJ();
+            Console.WriteLine("oj is ready");
+            Console.WriteLine("Breakfast is ready");
         }
 
         private static Juice PourOJ()
